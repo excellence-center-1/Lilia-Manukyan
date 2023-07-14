@@ -1,0 +1,46 @@
+    /* .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    position: relative;
+  }
+  
+  .inputBox {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+  } */
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border:#0d4752
+  }
+  
+  /* .button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background: #2295ac;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background: #0d4752;
+  } */
+  
