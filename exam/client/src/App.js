@@ -30,11 +30,6 @@ const App = () => {
 };
 
 
-// import React from 'react';
-// import GamePage from './GamePage';
-// import SignupPage from './SignupPage';
-// import LoginPage from './LoginPage';
-
 // const App = () => {
 //   return (
 //     <Router>
