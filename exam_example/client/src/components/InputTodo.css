@@ -1,0 +1,42 @@
+.input-todo {
+    text-align: center;
+  }
+  
+  .todo-title {
+    font-size: 24px;
+    margin: 5%;
+  }
+  
+  .todo-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%; /* Set the width of todo-form to 80% */
+    margin: 0 auto; /* Center todo-form horizontally */
+    
+  }
+  
+  .todo-input {
+    flex: 1;
+    width: 80%; /* Set the width of todo-input to 80% */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px; /* Add spacing between todo-input and todo-button */
+  }
+  
+  .todo-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-button:hover {
+    background-color: #0b4d19;
+  }
+  

@@ -1,0 +1,51 @@
+.list-todo {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .todo-table {
+    width: 80%; /* Set the table width to 80% */
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  table, th, td {
+    border: 1px solid;
+  }
+
+
+  .todo-header {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .todo-description {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-action {
+    padding: 10px;
+  }
+
+  todo-button todo-delete {
+    background-color: crimson;
+    color: #fff;
+    z-index: 2000
+  }
+  
+  /* .todo-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .todo-button:hover {
+    background-color: #105a21;
+  } */
+  

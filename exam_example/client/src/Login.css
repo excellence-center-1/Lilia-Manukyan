@@ -1,0 +1,73 @@
+/* Login.css */
+
+.custom-container {
+    width: 25%;
+    margin-top: 5rem;
+    background-color: #98d5a8;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .custom-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 5rem;
+  }
+  
+  .custom-form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .custom-label {
+    font-weight: bold;
+  }
+  
+  .custom-input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out;
+  }
+  
+  /* .custom-input:focus {
+    border-color: #007bff;
+  } */
+  
+  .custom-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .custom-button:hover {
+    background-color: #444141;
+  }
+  
+  .custom-link {
+    color: #000000;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .custom-link:hover {
+    text-decoration: underline;
+  }
+  
+  .errmsg {
+    color: #c83919;
+    font-weight: bold;
+  }
+  
+  .offscreen {
+    position: absolute;
+    left: -10000px;
+  }
+  
